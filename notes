@@ -1,0 +1,29 @@
+Notes
+
+areas:
+  analyzing manifests:
+    histogram of permissions
+    how many extensions affect every website
+
+Look at other forms of
+
+Common patterns:
+  !0)},globals:e}}(),_gaq=_gaq||[];_gaq.push(["_setAccount","UA-57199587-1"]);_gaq.push(["_trackPageview"]);(function(){var g=document.createElement("script");g.type="text/javascript";g.async=!0;g.src="https://ssl.google-analytics.com/ga.js";var l=document.getElementsByTagName("script")[0];l.parentNode.insertBefore(g,l)})();
+  Adding Google analytics script to the page
+  https://developers.google.com/analytics/devguides/collection/gajs/methods/gaJSApi_gaq
+
+  https://developer.piwik.org/api-reference/tracking-api
+  piwikTracker.trackPageView()
+  piwik.js
+  Looks like some type of tracking service
+
+
+
+EFF
+  Privacy Badger
+  Panopticlick
+
+  bill@eff.org
+  1073 E74E B38B
+
+  
