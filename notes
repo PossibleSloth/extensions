@@ -17,6 +17,10 @@ Common patterns:
   piwik.js
   Looks like some type of tracking service
 
+commands
+
+docker run -d -p 4444:4444 selenium/standalone-chrome:3.3.1-cesium
+python -m SimpleHTTPServer
 
 
 EFF
