@@ -54,4 +54,5 @@ def test():
         if 'sockets' in manifest:
             print(manifest)
 
-test()
+if __name__=="__main__":
+    test()
