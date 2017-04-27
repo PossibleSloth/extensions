@@ -5,6 +5,14 @@ areas:
     histogram of permissions
     how many extensions affect every website
 
+  check extension source against easylist.txt and easyprivacy.txt
+  run each extension with selenium
+  see whether adblock or privacybadger detects malicious extensions
+    see if selenium can read the adblock popup
+
+  see what extensions are capable of
+    can google analytics track users across all sites 
+
 Look at other forms of
 
 Common patterns:
@@ -12,10 +20,16 @@ Common patterns:
   Adding Google analytics script to the page
   https://developers.google.com/analytics/devguides/collection/gajs/methods/gaJSApi_gaq
 
+  check exetnsion: onchkkfaockmbfggammhbfgdbplfmkbf
+
+
   https://developer.piwik.org/api-reference/tracking-api
   piwikTracker.trackPageView()
   piwik.js
   Looks like some type of tracking service
+
+
+
 
 commands
 
@@ -29,5 +43,3 @@ EFF
 
   bill@eff.org
   1073 E74E B38B
-
-  

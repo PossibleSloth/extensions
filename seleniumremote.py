@@ -28,12 +28,20 @@ class browser:
                     command_executor='http://%s:%d/wd/hub' %remote_address,
                     desired_capabilities=chrome_options.to_capabilities())
 
-    def test(self):
-        self.driver.get('http://172.17.0.1:8000/test.html')
-        print(self.driver.page_source)
+    # cookie is a dictionary of cookie name/values
+    def get(self, url, cookie=None):
+        if cookie is not None:
+            self.driver.add_cookie(cookie)
+        self.driver.get(url)
+        return(self.driver.page_source)
+
+
+    def test(self, ip, port):
+        return self.get('http://%s:%d/test.html' % (ip, port))
+
 
 if __name__=="__main__":
     all_extensions = getextensions()
-    print(all_extensions[0])
-    b = browser(all_extensions[0:2], ('localhost', 4444))
-    b.test()
+    b = browser(all_extensions[:5], ('localhost', 4444))
+    print(b.test('172.17.0.1', 8000))
+    
